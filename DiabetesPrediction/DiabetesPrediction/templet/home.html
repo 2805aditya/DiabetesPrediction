@@ -1,0 +1,54 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style type = text/css>
+        div{
+            colour:'white'
+        }
+        h1{
+            colour:'white';
+            font-family:arial, sans-sarif;
+            font-size:40px;
+            font-weight:bold;
+            margin-top:100px;
+        }
+        h2{
+            colour:'white';
+            font-family:arial, sans-sarif;
+            font-size:25px;
+            font-weight:bold;
+            margin-top:250px;
+        }
+        body{
+        background-image:url({% static 'C:\Users\adity\Desktop\DiabetesPrediction\DiabetesPrediction\static\DiabetesPrediction\image\img3.jpg'%});
+        background-repeat:no-repeat;
+        background attachment:fixed;
+        background-size:cover;
+        }
+    input[type=submit]{
+    background-color: $4dc3ff;
+    border:2px;
+    color: white;
+    padding: 16px 32px;
+    cursor:pointer;
+    margin-top:15px;
+    </style>
+</head>
+<body>
+    <div align='center'>
+        <h1>
+        DIABETES PREDICTION PORTAL
+        </h1>
+        <form action="predict">
+                <input type="submit" value="lets get started!">
+        </form>
+    </div>
+
+
+</body>
+</html>
