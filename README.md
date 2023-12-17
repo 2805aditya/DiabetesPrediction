@@ -1,4 +1,2 @@
 # DiabetesPrediction
-this is basic and simple DiabetesPrediction Portal based on past data of patient in hospital using django framework
-i use jupyter notebook to clean the data and then perform exploratory data analysics 
-then i use visualization package of python to visual the data
+This project introduces a Diabetes Prediction Portal created with the Django framework, utilizing Jupyter Notebook for data cleaning and exploratory data analysis. The system analyzes historical patient data, employing machine learning to predict diabetes likelihood. The portal offers a user-friendly interface for input and result visualization.
